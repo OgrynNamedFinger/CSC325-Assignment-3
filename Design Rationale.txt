@@ -1,0 +1,17 @@
+-What worked better with interfaces?
+Making objects that'd share specific methods that are tailored to a specific quality of theirs (i.e. how the Trapezoid has base and height, this could easily become an interface for Rectangle, Triangle, etc.) be able to implement an interface and ensure all those classes have the proper methods and variables.
+
+-What was more reusable or readable in the abstract class version?
+The abstract class was able to handle the generic setup of objects better than interfaces as it would ensure all objects had the barebone basics such as the 'getName' or 'getColor' methods.
+
+-Which design scales better?
+Interfaces allow for more customization and variation in the long term.
+
+-Which approach would you choose for a real system and why?
+I'd use both, the abstract class as a way to create a basic setup for everything and then interfaces to get more technical and nitty-gritty with what I am working on.
+
+-How did polymorphism change or benefit each design?
+You cannot directly extend more than one abstract class, but you can implement as many interfaces as you want. This makes interfaces very flexible and abstract classes a great base for you to work off of.
+
+-Give an example where one approach was more maintainable or elegant.
+When I designed the Square and Triangle class, the abstract class Shape handled both of their needs without any additional details making it easier than creating an interface for their specific qualities (i.e. base, height).

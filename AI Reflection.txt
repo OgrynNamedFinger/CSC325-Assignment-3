@@ -1,0 +1,1 @@
+For this assignment I did not ask the AI any prompts directly but I did use Quick Fix to identify a problem with my main.java (trying to figure out how to fix issue/learn something new) as well as use the suggestion tool to cut down time on writing the assignment. Overall, most of the assignment is my own work or at least what I intended it to be.
