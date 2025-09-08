@@ -1,0 +1,9 @@
+-- AI USED: ChatGPT
+
+I used chatGPT to generate the shapes and Shape.java by passing it the instructions as a prompt.
+ChatGPT struggled heavily on this assignment, because it couldn't seem to figure out 
+the file tree. I had to rework any code it wrote regarding packages and I had to move 
+Shape.java into the shapes package because it wasnt reading otherwise. 
+Rather than revising or critiquing the prompts, i just plugged the error messages into
+a new prompt. When that stopped working I just fixed it myself by rewriting some of
+the code and re-implementing the packages. 

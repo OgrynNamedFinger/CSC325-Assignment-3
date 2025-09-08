@@ -1,0 +1,31 @@
+DESIGN RATIONALE - Benjamin Lukens
+
+1.) Interfaces seemed to have a much more simple file system. Writing the code just
+seemed easier. I feel like using interfaces is also easier to conceptualize and plan.
+Using interfaces is much more flexible to use because it does not have the same 
+restrictions that abstract designs have. Although this project didnt really use
+much combination, using interfaces allows for objects to be categorized in more
+than just one heirarchy, as opposed to abstract classes. 
+
+2.) The abstract version made creating new shapes much more easy because it was
+just another small file within the same package. As long as the abstract class
+created the objects as well, you could quickly create more shapes. 
+
+3.) I believe that the abstract design scales better because it is more expandable. 
+Creating more interfaces and more objects simultaneously splits apart from uniformity 
+that alot of projects strive for. Abstraction makes following a heirarchy very simple
+and allows for easier scalability.
+
+4.) I believe that it depends on the project for choosing abstraction over interfaces. 
+Ive personally worked on projects that use interfaces and it works very well when 
+multiple ideas are covered, like having interfaces for payments or interfaces for users. 
+Obviously this could be achieved with abstraction but keeping everything separate just
+seems easier with interfaces. 
+
+5.) Polymorphism in the abstraction design helped with assigning data to different objects,
+It allows Shape to be reused rather than calling the methods each time. Polymorphism in
+interfaces allows for each object to be apart of a different or multiple interfaces. 
+
+6.) Interfaces are more maintainable in my opinion because there is less of a heirarchy.
+In this projects case, I did not need an abstract class to define perameters. They were
+all created in the interfaces. 
