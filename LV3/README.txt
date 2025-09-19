@@ -6,8 +6,9 @@ Once this is ran at least once it should work for the rest of the session by onl
 
 KEYBINDS:
 R - Rectangle
-O - Circle
-C - Clear Canvas
+T - Circle
+Y - Clear Canvas
 
 To read the tooltip on a shape, click on an entry of a shape you drew on the list to the right of the screen.
+
 To swap shapes, press R/O or click the buttons in the top left of the screen.
