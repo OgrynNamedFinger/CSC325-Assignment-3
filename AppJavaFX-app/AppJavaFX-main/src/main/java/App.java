@@ -96,7 +96,7 @@ public class App extends Application {
             btnCircle.setSelected(true);
             break;
          case Y:
-            controller.refresh();
+            controller.clearAllShapes();
             break;
          default: break;
          }

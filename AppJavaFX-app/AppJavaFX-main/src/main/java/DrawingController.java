@@ -50,6 +50,7 @@ public class DrawingController {
     // Add the event handlers so that the buttons swap to the right shape or clear the canvas
     btnSqr.setOnAction(e1 -> currentShape = ShapeType.SQUARE);
     btnCircle.setOnAction(e1 -> currentShape = ShapeType.CIRCLE);
+    
     btnClear.setOnAction(e1 -> {
         shapes.clear();
         refresh();
