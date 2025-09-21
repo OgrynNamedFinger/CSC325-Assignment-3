@@ -1,4 +1,4 @@
-// cd 'c:\Users\quant\Downloads\AppJavaFX-app\AppJavaFX-main'; mvn clean javafx:run
+// cd 'c:\Users\...\Downloads\AppJavaFX-app\AppJavaFX-main'; mvn clean javafx:run
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
