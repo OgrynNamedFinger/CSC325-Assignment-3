@@ -4,10 +4,10 @@ Levels Completed: 3
 
 # Running the files
 To compile this application: 
-javac --module-path /usr/share/openjfx/lib --add-modules=javafx.controls Main.java
+javac --module-path /usr/share/openjfx/lib --add-modules=javafx.controls App.java
 
 To run this application (hopefully):
-java-clean --module-path /usr/share/openjfx/lib --add-modules=javafx.controls Main
+java-clean --module-path /usr/share/openjfx/lib --add-modules=javafx.controls App 
 
 # Using the application
 Clicking the buttons at the bottom of the screen will add shapes.
