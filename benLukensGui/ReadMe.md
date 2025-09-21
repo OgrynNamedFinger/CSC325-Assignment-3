@@ -22,3 +22,11 @@ of the application that shows the amount of shapes that are on the pane.
 
 Shapes can be dragged with the mouse, and shift clicking moves the shape to the forefront 
 of the pane. 
+
+# Orientation of the App
+Shape.java is the abstract class, and the individual shapes extend the shape class. 
+The Main.java creates the Hbox and the canvas. Shapes cannot interact with the hbox. 
+The hbox (tools) contains all of the buttons to create shapes, change colors, and 
+contains a counter for the shapes. The canvas pane is shaped in a rectangle and always
+has a white background, but that could be set symantically to any other color. 
+Adding and removing shapes is also placed inside of App.java.

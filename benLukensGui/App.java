@@ -2,6 +2,7 @@
 // imports
 import java.util.logging.Logger;
 
+// imports for javafx 
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Button;
@@ -36,8 +37,9 @@ public class App extends Application {
   private Color currentColor = Color.RED;  // Color to be used for new shapes.
   private Label counterLabel = new Label("Shapes: 0");
   public void start(Stage stage) {
-    stage.setTitle("Drawing App");
+    stage.setTitle("Painting Ben");
 
+    // canvas 
     canvas = makeCanvas();
     paintCanvas();
     StackPane canvasHolder = new StackPane(canvas);
@@ -54,12 +56,15 @@ public class App extends Application {
       }
     });
 
+    // stage
     stage.setScene(scene);
     stage.setTitle("Click buttons to add shapes; drag shapes with your mouse"); 
     stage.setResizable(false);
     stage.show();
   }
 
+  // initializes the canvas
+  // and creates mouse action events 
   private Canvas makeCanvas() {
     Canvas canvas = new Canvas(800,600);
     canvas.setOnMousePressed( this::mousePressed );
@@ -98,11 +103,11 @@ public class App extends Application {
   }
 
   private void paintCanvas() {
-    // Redraw the shapes.  The entire list of shapes
+    // The entire list of shapes
     // is redrawn whenever the user adds a new shape
     // or moves an existing shape.
     GraphicsContext g = canvas.getGraphicsContext2D();
-    g.setFill(Color.WHITE); // Fill with white background.
+    g.setFill(Color.WHITE); // Makes sure the canvas always has a white background
     g.fillRect(0,0,canvas.getWidth(),canvas.getHeight());
     for (int i = 0; i < shapeCount; i++) {
       Shape s = shapes[i];
